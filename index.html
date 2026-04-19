@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>QR Attendance</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>QR Attendance System</h1>
+
+<button onclick="generateQR()">Generate QR</button>
+<div id="qrcode"></div>
+
+<input type="text" id="studentName" placeholder="Enter your name">
+<br>
+<button onclick="markAttendance()">Mark Attendance</button>
+
+<h3 id="result"></h3>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
